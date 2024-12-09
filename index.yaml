@@ -1,102 +1,102 @@
 apiVersion: v1
 entries:
   cloudwiz:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2024-12-09T15:18:54.9903755+09:00"
-      dependencies:
-        - condition: console.enabled
-          name: console
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: console-api.enabled
-          name: console-api
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: identity.enabled
-          name: identity
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: secret.enabled
-          name: secret
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: repository.enabled
-          name: repository
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: plugin.enabled
-          name: plugin
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: config.enabled
-          name: config
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: inventory.enabled
-          name: inventory
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: monitoring.enabled
-          name: monitoring
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: statistics.enabled
-          name: statistics
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: cost-analysis.enabled
-          name: cost-analysis
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: notification.enabled
-          name: notification
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: board.enabled
-          name: board
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: file-manager.enabled
-          name: file-manager
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: dashboard.enabled
-          name: dashboard
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: console-api-v2.enabled
-          name: console-api-v2
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: marketplace-assets.enabled
-          name: marketplace-assets
-          repository: https://spaceone-dev.github.io/charts
-          version: '>=1.0.0'
-        - condition: supervisor.enabled
-          name: supervisor
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: provisioning.enabled
-          name: provisioning
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: supervisor.enabled
-          name: spaceone-initializer
-          repository: https://me33x3.github.io/charts
-          version: '>=1.0.0'
-        - condition: vault.enabled
-          name: vault
-          repository: ""
-          version: '>=0.1.0'
-        - condition: consul.enabled
-          name: consul
-          repository: https://helm.releases.hashicorp.com
-          version: '>=0.1.0'
-      digest: c069332a0ae5dfdec736c8a595101f1bbc64eb69f00e5f2900d3580ea96b6c23
-      name: cloudwiz
-      type: application
-      urls:
-        - https://me33x3.github.io/charts/cloudwiz-1.0.0.tgz
-      version: 1.0.0
-generated: "2024-12-09T15:18:54.9742036+09:00"
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-12-09T15:51:11.7428248+09:00"
+    dependencies:
+    - condition: console.enabled
+      name: console
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: identity.enabled
+      name: identity
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: secret.enabled
+      name: secret
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: repository.enabled
+      name: repository
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: config.enabled
+      name: config
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: notification.enabled
+      name: notification
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: board.enabled
+      name: board
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://spaceone-dev.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: provisioning.enabled
+      name: provisioning
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: spaceone-initializer
+      repository: https://me33x3.github.io/charts
+      version: '>=1.0.0'
+    - condition: vault.enabled
+      name: vault
+      repository: ""
+      version: '>=0.1.0'
+    - condition: consul.enabled
+      name: consul
+      repository: https://helm.releases.hashicorp.com
+      version: '>=0.1.0'
+    digest: 37f44acb35bf7cbf87f756d4e63a83b37d0a9e8f804949d3018f8b30c66dc78d
+    name: cloudwiz
+    type: application
+    urls:
+    - https://me33x3.github.io/charts/cloudwiz-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-12-09T15:51:11.7259232+09:00"
