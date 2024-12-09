@@ -3,7 +3,7 @@ entries:
   cloudwiz:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-09T15:51:11.7428248+09:00"
+    created: "2024-12-09T16:16:11.0921744+09:00"
     dependencies:
     - condition: console.enabled
       name: console
@@ -93,10 +93,10 @@ entries:
       name: consul
       repository: https://helm.releases.hashicorp.com
       version: '>=0.1.0'
-    digest: 37f44acb35bf7cbf87f756d4e63a83b37d0a9e8f804949d3018f8b30c66dc78d
+    digest: 1f07b0c2c8bd38e632cf19498104ad0347e63543a61ceb03029d5afd099a9e66
     name: cloudwiz
     type: application
     urls:
     - https://me33x3.github.io/charts/cloudwiz-1.0.0.tgz
     version: 1.0.0
-generated: "2024-12-09T15:51:11.7259232+09:00"
+generated: "2024-12-09T16:16:11.0776616+09:00"
